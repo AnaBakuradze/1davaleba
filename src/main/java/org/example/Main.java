@@ -79,6 +79,28 @@ public class Main {
 
         }
         System.out.println("ხმოვნების რაოდენობა  " + count);
+
+        int[] testeResult = {1, 0, 1, 1, 0};
+        int passed = 0;
+        int failed = 0;
+
+        for (int i = 0; i< testeResult.length; i++) {
+
+            if (testeResult[i] == 1) {
+                passed++;
+
+
+            } else if (testeResult[i] == 0) {
+                failed++;
+
+
+            }
+        }
+
+
+        System.out.println(passed + "   Passed");
+        System.out.println(failed+ "  Failed");
+
     }
 
 
