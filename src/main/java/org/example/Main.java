@@ -80,6 +80,8 @@ public class Main {
         }
         System.out.println("ხმოვნების რაოდენობა  " + count);
 
+        //exercise 3
+
         int[] testeResult = {1, 0, 1, 1, 0};
         int passed = 0;
         int failed = 0;
